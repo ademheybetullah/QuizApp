@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="quizCss.css">
+    
+    <title>Quick Quiz</title>
+</head>
+<body>
+    <div id="enDisDiv">
+        <h2>Quiz</h2>
+        <hr>
+        <strong id="txtSoru">
+            
+        </strong>
+         <div id="soruDiv">
+                <input type="radio" id="a" name="answer" class="cevap" value="">
+                 <label id="lblCevap1" for="a">HTML</label><br>
+                 <input type="radio" id="b" name="answer" class="cevap" value="">
+                 <label id="lblCevap2" for="b">CSS</label><br>
+                 <input type="radio" id="c" name="answer" class="cevap" value="">
+                 <label id="lblCevap3" for="c">JavaScript</label><br>
+                 <button onclick="Cevapla()" id="btnGonder">Gönder</button>
+         </div>
+         
+    </div>
+    <script src="quizJs.js"></script>
+</body>
+</html>
